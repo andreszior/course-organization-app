@@ -2,6 +2,8 @@ package com.amv.courseorganizationapp.mappers;
 import com.amv.courseorganizationapp.entities.Teacher;
 import org.apache.ibatis.annotations.*;
 
+import java.util.Map;
+
 @Mapper
 public interface TeacherMapper {
 
@@ -14,5 +16,15 @@ public interface TeacherMapper {
     //@Select("SELECT t.dni FROM teacher t WHERE t.dni = #{dni}")
     @Select("SELECT EXISTS(SELECT 1 FROM teacher WHERE dni = #{dni})")
     boolean existTeacher(String dni);
+
+    @Delete("DELETE FROM teacher WHERE dni = #{dni}")
+    boolean deleteTeacher(String dni);
+
+    @Update("UPDATE teacher SET dni = #{dni}, name=#{name}, lastname_first=#{firstSurname}, lastname_second=#{lastSurname}, email=#{email}, phone=#{phone}, address=#{address} WHERE dni=#{dni}")
+    boolean updateTeacher(Teacher teacher);
+
+    //@Select("SELECT * FROM teacher WHERE dni=#{dni}")
+    @Select("SELECT idteacher AS id, dni, name, lastname_first AS firstSurname, lastname_second AS lastSurname, email, phone, address FROM teacher WHERE dni = #{dni}")
+    Teacher getTeacher(String dni);
 
 }

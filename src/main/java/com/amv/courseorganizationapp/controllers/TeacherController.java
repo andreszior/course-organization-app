@@ -15,10 +15,9 @@ import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Map;
 
 @RestController
 @RequestMapping("/teacher")
@@ -66,6 +65,27 @@ public class TeacherController {
         return new ResponseEntity<>(teacher.getId(), HttpStatus.CREATED);
     }
 
+    @DeleteMapping("/delete/{dni}")
+    @Operation(summary = "Delete a teacher ",
+        description = "Given a dni, it can delete the teacher from the database")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Teacher delete", content = @Content(schema = @Schema(implementation = String.class))),
+            @ApiResponse(responseCode = "400", description = "Problemas with the entry", content = @Content(schema = @Schema(implementation = BindingResult.class))),
+    })
+    @io.swagger.v3.oas.annotations.parameters.RequestBody(description = "Entry with teacher's DNI required for the deletion", required = true,
+    content = @Content(schema = @Schema(implementation = Teacher.class)))
+    public ResponseEntity<?> deleteTeacher(@PathVariable String dni){
+        try{
+            teacherService.deleteTeacher(dni);
+        } catch (Exception e){
+            Log.logError(e.getMessage(), e);
+            return new ResponseEntity<>("Invalid request", HttpStatus.BAD_REQUEST);
+        }
+
+        Log.logInfo("Teacher deleted");
+        return new ResponseEntity<>("Teacher eliminated", HttpStatus.ACCEPTED);
+    }
+
 
     private void validation(String dni) throws RequestValidationException {
         if(teacherService.teacherExists(dni)){
@@ -73,5 +93,21 @@ public class TeacherController {
         }
     }
 
+    @PostMapping("/modify/{dni}")
+    public ResponseEntity<?> updateTeacher(@PathVariable String dni, @RequestBody Map<String, Object> updates){
+
+        if(teacherService.updateTeacher(dni, updates)){
+            return new ResponseEntity<>(HttpStatus.OK);
+        }
+        return new ResponseEntity<>("Invalid request", HttpStatus.BAD_REQUEST);
+    }
+
+    @GetMapping("/get/{dni}")
+    public ResponseEntity<?> getTeacher(@PathVariable String dni){
+        if(teacherService.getTeacher(dni) != null) {
+            return new ResponseEntity<>(teacherService.getTeacher(dni), HttpStatus.OK);
+        }
+        return new ResponseEntity<>("Teacher not found", HttpStatus.NOT_FOUND);
+    }
 
 }

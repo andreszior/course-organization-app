@@ -300,3 +300,350 @@ Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'a
 2024-07-05T13:00:16.672+0200 2024-07-05 13:00:16,672 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 16380 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
 2024-07-05T13:00:16.673+0200 2024-07-05 13:00:16,673 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
 2024-07-05T13:00:17.321+0200 2024-07-05 13:00:17,321 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.731 seconds (process running for 133712.006)
+2024-07-15T18:07:00.688+0200 2024-07-15 18:07:00,688 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 2616 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:07:00.695+0200 2024-07-15 18:07:00,695 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:07:03.562+0200 2024-07-15 18:07:03,562 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 3.288 seconds (process running for 4.888)
+2024-07-15T18:07:25.435+0200 2024-07-15 18:07:25,435 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 2616 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:07:25.435+0200 2024-07-15 18:07:25,435 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:07:26.258+0200 2024-07-15 18:07:26,258 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.866 seconds (process running for 27.585)
+2024-07-15T18:07:59.296+0200 2024-07-15 18:07:59,296 [ERROR] CourseOrganizationAppApplication - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'andrespatata@gmail.com' for key 'teacher.email_UNIQUE'
+### The error may exist in com/amv/courseorganizationapp/mappers/TeacherMapper.java (best guess)
+### The error may involve com.amv.courseorganizationapp.mappers.TeacherMapper.createTeacher-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO teacher (dni, name, lastname_first, lastname_second, email, phone, address) VALUES (?, ?, ?, ?, ?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'andrespatata@gmail.com' for key 'teacher.email_UNIQUE'
+; Duplicate entry 'andrespatata@gmail.com' for key 'teacher.email_UNIQUE'
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'andrespatata@gmail.com' for key 'teacher.email_UNIQUE'
+### The error may exist in com/amv/courseorganizationapp/mappers/TeacherMapper.java (best guess)
+### The error may involve com.amv.courseorganizationapp.mappers.TeacherMapper.createTeacher-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO teacher (dni, name, lastname_first, lastname_second, email, phone, address) VALUES (?, ?, ?, ?, ?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'andrespatata@gmail.com' for key 'teacher.email_UNIQUE'
+; Duplicate entry 'andrespatata@gmail.com' for key 'teacher.email_UNIQUE'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:254) ~[spring-jdbc-6.1.10.jar:6.1.10]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107) ~[spring-jdbc-6.1.10.jar:6.1.10]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at jdk.proxy2/jdk.proxy2.$Proxy102.insert(Unknown Source) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86) ~[mybatis-3.5.14.jar:3.5.14]
+	at jdk.proxy4/jdk.proxy4.$Proxy123.createTeacher(Unknown Source) ~[?:?]
+	at com.amv.courseorganizationapp.services.impl.TeacherService.createTeacher(TeacherService.java:19) ~[classes/:?]
+	at com.amv.courseorganizationapp.controllers.TeacherController.registerTeacher(TeacherController.java:55) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.25.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.25.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'andrespatata@gmail.com' for key 'teacher.email_UNIQUE'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:912) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44) ~[HikariCP-5.1.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:?]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.14.jar:3.5.14]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	... 56 more
+2024-07-15T18:08:10.439+0200 2024-07-15 18:08:10,439 [INFO] CourseOrganizationAppApplication - teacher registered
+2024-07-15T18:09:06.613+0200 2024-07-15 18:09:06,613 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 2616 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:09:06.614+0200 2024-07-15 18:09:06,614 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:09:07.380+0200 2024-07-15 18:09:07,380 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.833 seconds (process running for 128.707)
+2024-07-15T18:09:08.908+0200 2024-07-15 18:09:08,908 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 2616 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:09:08.909+0200 2024-07-15 18:09:08,909 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:09:09.447+0200 2024-07-15 18:09:09,447 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.585 seconds (process running for 130.773)
+2024-07-15T18:10:30.706+0200 2024-07-15 18:10:30,706 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 2616 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:10:30.708+0200 2024-07-15 18:10:30,708 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:10:31.401+0200 2024-07-15 18:10:31,401 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.743 seconds (process running for 212.729)
+2024-07-15T18:10:32.970+0200 2024-07-15 18:10:32,970 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 2616 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:10:32.972+0200 2024-07-15 18:10:32,972 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:10:33.935+0200 2024-07-15 18:10:33,935 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 1.02 seconds (process running for 215.262)
+2024-07-15T18:13:21.033+0200 2024-07-15 18:13:21,033 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 19548 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:13:21.041+0200 2024-07-15 18:13:21,041 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:13:23.991+0200 2024-07-15 18:13:23,991 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 3.248 seconds (process running for 4.426)
+2024-07-15T18:13:54.963+0200 2024-07-15 18:13:54,963 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 22968 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:13:54.973+0200 2024-07-15 18:13:54,973 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:13:57.350+0200 2024-07-15 18:13:57,350 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.726 seconds (process running for 3.716)
+2024-07-15T18:15:22.699+0200 2024-07-15 18:15:22,699 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 1920 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:15:22.707+0200 2024-07-15 18:15:22,707 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:15:24.954+0200 2024-07-15 18:15:24,954 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.602 seconds (process running for 3.641)
+2024-07-15T18:15:30.380+0200 2024-07-15 18:15:30,380 [INFO] CourseOrganizationAppApplication - Teacher deleted
+2024-07-15T18:16:02.267+0200 2024-07-15 18:16:02,267 [INFO] CourseOrganizationAppApplication - Teacher deleted
+2024-07-15T18:16:48.023+0200 2024-07-15 18:16:48,023 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 3804 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:16:48.030+0200 2024-07-15 18:16:48,030 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:16:50.149+0200 2024-07-15 18:16:50,149 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.41 seconds (process running for 3.357)
+2024-07-15T18:16:56.697+0200 2024-07-15 18:16:56,697 [INFO] CourseOrganizationAppApplication - Teacher deleted
+2024-07-15T18:17:11.233+0200 2024-07-15 18:17:11,233 [INFO] CourseOrganizationAppApplication - Teacher deleted
+2024-07-15T18:18:15.116+0200 2024-07-15 18:18:15,116 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 15516 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:18:15.124+0200 2024-07-15 18:18:15,124 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:18:17.688+0200 2024-07-15 18:18:17,688 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.953 seconds (process running for 4.184)
+2024-07-15T18:18:28.369+0200 2024-07-15 18:18:28,369 [INFO] CourseOrganizationAppApplication - Teacher deleted
+2024-07-15T18:19:10.118+0200 2024-07-15 18:19:10,118 [ERROR] CourseOrganizationAppApplication - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'andrespatata2@gmail.com' for key 'teacher.email_UNIQUE'
+### The error may exist in com/amv/courseorganizationapp/mappers/TeacherMapper.java (best guess)
+### The error may involve com.amv.courseorganizationapp.mappers.TeacherMapper.createTeacher-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO teacher (dni, name, lastname_first, lastname_second, email, phone, address) VALUES (?, ?, ?, ?, ?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'andrespatata2@gmail.com' for key 'teacher.email_UNIQUE'
+; Duplicate entry 'andrespatata2@gmail.com' for key 'teacher.email_UNIQUE'
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'andrespatata2@gmail.com' for key 'teacher.email_UNIQUE'
+### The error may exist in com/amv/courseorganizationapp/mappers/TeacherMapper.java (best guess)
+### The error may involve com.amv.courseorganizationapp.mappers.TeacherMapper.createTeacher-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO teacher (dni, name, lastname_first, lastname_second, email, phone, address) VALUES (?, ?, ?, ?, ?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'andrespatata2@gmail.com' for key 'teacher.email_UNIQUE'
+; Duplicate entry 'andrespatata2@gmail.com' for key 'teacher.email_UNIQUE'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:254) ~[spring-jdbc-6.1.10.jar:6.1.10]
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107) ~[spring-jdbc-6.1.10.jar:6.1.10]
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at jdk.proxy2/jdk.proxy2.$Proxy103.insert(Unknown Source) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86) ~[mybatis-3.5.14.jar:3.5.14]
+	at jdk.proxy3/jdk.proxy3.$Proxy108.createTeacher(Unknown Source) ~[?:?]
+	at com.amv.courseorganizationapp.services.impl.TeacherService.createTeacher(TeacherService.java:19) ~[classes/:?]
+	at com.amv.courseorganizationapp.controllers.TeacherController.registerTeacher(TeacherController.java:52) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.25.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.25.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.10.jar:6.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.25.jar:10.1.25]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'andrespatata2@gmail.com' for key 'teacher.email_UNIQUE'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:912) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44) ~[HikariCP-5.1.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:?]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197) ~[mybatis-3.5.14.jar:3.5.14]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184) ~[mybatis-3.5.14.jar:3.5.14]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425) ~[mybatis-spring-3.0.3.jar:3.0.3]
+	... 56 more
+2024-07-15T18:19:15.978+0200 2024-07-15 18:19:15,978 [INFO] CourseOrganizationAppApplication - teacher registered
+2024-07-15T18:19:33.569+0200 2024-07-15 18:19:33,569 [INFO] CourseOrganizationAppApplication - Teacher deleted
+2024-07-15T18:21:09.115+0200 2024-07-15 18:21:09,115 [INFO] CourseOrganizationAppApplication - Teacher deleted
+2024-07-15T18:36:05.748+0200 2024-07-15 18:36:05,748 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 15476 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:36:05.755+0200 2024-07-15 18:36:05,755 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:36:08.214+0200 2024-07-15 18:36:08,214 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.792 seconds (process running for 3.898)
+2024-07-15T18:36:17.336+0200 2024-07-15 18:36:17,336 [INFO] CourseOrganizationAppApplication - Teacher deleted
+2024-07-15T18:40:22.233+0200 2024-07-15 18:40:22,233 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 21536 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:40:22.240+0200 2024-07-15 18:40:22,240 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:40:24.780+0200 2024-07-15 18:40:24,780 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.916 seconds (process running for 4.229)
+2024-07-15T18:41:49.149+0200 2024-07-15 18:41:49,149 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 9108 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:41:49.158+0200 2024-07-15 18:41:49,158 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:41:51.530+0200 2024-07-15 18:41:51,530 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.694 seconds (process running for 3.821)
+2024-07-15T18:42:19.647+0200 2024-07-15 18:42:19,647 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 12460 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:42:19.655+0200 2024-07-15 18:42:19,655 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:42:22.379+0200 2024-07-15 18:42:22,379 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 3.05 seconds (process running for 4.151)
+2024-07-15T18:43:58.370+0200 2024-07-15 18:43:58,370 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 21524 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:43:58.377+0200 2024-07-15 18:43:58,377 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:44:00.574+0200 2024-07-15 18:44:00,574 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.503 seconds (process running for 3.422)
+2024-07-15T18:44:08.570+0200 2024-07-15 18:44:08,570 [INFO] CourseOrganizationAppApplication - Teacher deleted
+2024-07-15T18:44:43.261+0200 2024-07-15 18:44:43,261 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 21524 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:44:43.262+0200 2024-07-15 18:44:43,262 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:44:43.906+0200 2024-07-15 18:44:43,906 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.684 seconds (process running for 46.754)
+2024-07-15T18:45:16.421+0200 2024-07-15 18:45:16,421 [INFO] CourseOrganizationAppApplication - teacher registered
+2024-07-15T18:45:31.314+0200 2024-07-15 18:45:31,314 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 21524 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:45:31.315+0200 2024-07-15 18:45:31,315 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:45:31.895+0200 2024-07-15 18:45:31,895 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.627 seconds (process running for 94.743)
+2024-07-15T18:45:33.394+0200 2024-07-15 18:45:33,394 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 21524 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:45:33.394+0200 2024-07-15 18:45:33,394 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:45:33.880+0200 2024-07-15 18:45:33,880 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.52 seconds (process running for 96.729)
+2024-07-15T18:45:35.717+0200 2024-07-15 18:45:35,717 [INFO] CourseOrganizationAppApplication - Teacher deleted
+2024-07-15T18:45:53.743+0200 2024-07-15 18:45:53,743 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 21524 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:45:53.744+0200 2024-07-15 18:45:53,744 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:45:54.591+0200 2024-07-15 18:45:54,591 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.89 seconds (process running for 117.438)
+2024-07-15T18:45:55.098+0200 2024-07-15 18:45:55,098 [INFO] CourseOrganizationAppApplication - teacher registered
+2024-07-15T18:45:56.092+0200 2024-07-15 18:45:56,092 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 21524 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T18:45:56.092+0200 2024-07-15 18:45:56,092 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T18:45:56.691+0200 2024-07-15 18:45:56,691 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.631 seconds (process running for 119.539)
+2024-07-15T18:45:58.509+0200 2024-07-15 18:45:58,509 [INFO] CourseOrganizationAppApplication - Teacher deleted
+2024-07-15T19:26:28.062+0200 2024-07-15 19:26:28,062 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 21524 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-15T19:26:28.064+0200 2024-07-15 19:26:28,064 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-15T19:26:28.980+0200 2024-07-15 19:26:28,980 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.99 seconds (process running for 2551.829)
+2024-07-20T20:52:31.205+0200 2024-07-20 20:52:31,205 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 18360 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T20:52:31.216+0200 2024-07-20 20:52:31,216 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T20:52:33.900+0200 2024-07-20 20:52:33,900 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 3.131 seconds (process running for 5.096)
+2024-07-20T20:55:49.957+0200 2024-07-20 20:55:49,957 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 20976 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T20:55:49.963+0200 2024-07-20 20:55:49,963 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T20:55:51.803+0200 2024-07-20 20:55:51,803 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.122 seconds (process running for 3.025)
+2024-07-20T20:55:57.358+0200 2024-07-20 20:55:57,358 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 20976 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T20:55:57.359+0200 2024-07-20 20:55:57,359 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T20:55:57.854+0200 2024-07-20 20:55:57,854 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.527 seconds (process running for 9.076)
+2024-07-20T20:56:32.013+0200 2024-07-20 20:56:32,013 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 20976 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T20:56:32.013+0200 2024-07-20 20:56:32,013 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T20:56:32.569+0200 2024-07-20 20:56:32,569 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.592 seconds (process running for 43.79)
+2024-07-20T20:56:39.150+0200 2024-07-20 20:56:39,150 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 20976 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T20:56:39.151+0200 2024-07-20 20:56:39,151 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T20:56:39.563+0200 2024-07-20 20:56:39,563 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.44 seconds (process running for 50.785)
+2024-07-20T20:57:10.053+0200 2024-07-20 20:57:10,053 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 8400 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T20:57:10.061+0200 2024-07-20 20:57:10,061 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T20:57:12.013+0200 2024-07-20 20:57:12,013 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.22 seconds (process running for 3.041)
+2024-07-20T20:58:19.917+0200 2024-07-20 20:58:19,917 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 20756 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T20:58:19.922+0200 2024-07-20 20:58:19,922 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T20:58:21.867+0200 2024-07-20 20:58:21,867 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.186 seconds (process running for 2.976)
+2024-07-20T20:58:44.204+0200 2024-07-20 20:58:44,204 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 8888 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T20:58:44.211+0200 2024-07-20 20:58:44,211 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T20:58:46.490+0200 2024-07-20 20:58:46,490 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.584 seconds (process running for 4.085)
+2024-07-20T20:59:13.770+0200 2024-07-20 20:59:13,770 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 20632 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T20:59:13.777+0200 2024-07-20 20:59:13,777 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T20:59:15.935+0200 2024-07-20 20:59:15,935 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.629 seconds (process running for 3.968)
+2024-07-20T21:00:24.387+0200 2024-07-20 21:00:24,387 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 10688 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T21:00:24.395+0200 2024-07-20 21:00:24,395 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T21:00:26.789+0200 2024-07-20 21:00:26,789 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.752 seconds (process running for 3.924)
+2024-07-20T21:02:30.931+0200 2024-07-20 21:02:30,931 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 18872 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T21:02:30.938+0200 2024-07-20 21:02:30,938 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T21:02:33.073+0200 2024-07-20 21:02:33,073 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.436 seconds (process running for 3.363)
+2024-07-20T21:02:47.374+0200 2024-07-20 21:02:47,374 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 17484 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T21:02:47.381+0200 2024-07-20 21:02:47,381 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T21:02:49.553+0200 2024-07-20 21:02:49,553 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.448 seconds (process running for 3.35)
+2024-07-20T21:06:19.508+0200 2024-07-20 21:06:19,508 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 17484 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T21:06:19.509+0200 2024-07-20 21:06:19,509 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T21:06:20.111+0200 2024-07-20 21:06:20,111 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.664 seconds (process running for 213.908)
+2024-07-20T21:06:35.303+0200 2024-07-20 21:06:35,303 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 17484 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T21:06:35.303+0200 2024-07-20 21:06:35,303 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T21:06:35.758+0200 2024-07-20 21:06:35,758 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.486 seconds (process running for 229.554)
+2024-07-20T21:06:42.379+0200 2024-07-20 21:06:42,379 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 17484 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T21:06:42.380+0200 2024-07-20 21:06:42,380 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T21:06:42.913+0200 2024-07-20 21:06:42,913 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.562 seconds (process running for 236.71)
+2024-07-20T21:06:44.400+0200 2024-07-20 21:06:44,400 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 17484 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T21:06:44.400+0200 2024-07-20 21:06:44,400 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T21:06:44.884+0200 2024-07-20 21:06:44,884 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.518 seconds (process running for 238.681)
+2024-07-20T21:06:49.665+0200 2024-07-20 21:06:49,665 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 12728 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T21:06:49.672+0200 2024-07-20 21:06:49,672 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T21:06:52.022+0200 2024-07-20 21:06:52,022 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.622 seconds (process running for 3.634)
+2024-07-20T21:07:31.363+0200 2024-07-20 21:07:31,363 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 12728 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T21:07:31.364+0200 2024-07-20 21:07:31,364 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T21:07:31.949+0200 2024-07-20 21:07:31,949 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.621 seconds (process running for 43.561)
+2024-07-20T21:08:17.018+0200 2024-07-20 21:08:17,018 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 3320 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T21:08:17.024+0200 2024-07-20 21:08:17,024 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T21:08:19.096+0200 2024-07-20 21:08:19,096 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.339 seconds (process running for 3.176)
+2024-07-20T21:08:49.859+0200 2024-07-20 21:08:49,859 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 10256 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T21:08:49.865+0200 2024-07-20 21:08:49,865 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T21:08:51.807+0200 2024-07-20 21:08:51,807 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.207 seconds (process running for 3.072)
+2024-07-20T21:09:17.399+0200 2024-07-20 21:09:17,399 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 21460 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T21:09:17.407+0200 2024-07-20 21:09:17,407 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T21:09:19.400+0200 2024-07-20 21:09:19,400 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.297 seconds (process running for 3.151)
+2024-07-20T21:10:15.977+0200 2024-07-20 21:10:15,977 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 21460 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T21:10:15.977+0200 2024-07-20 21:10:15,977 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T21:10:16.547+0200 2024-07-20 21:10:16,547 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.606 seconds (process running for 60.297)
+2024-07-20T21:11:21.833+0200 2024-07-20 21:11:21,833 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 5848 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T21:11:21.840+0200 2024-07-20 21:11:21,840 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T21:11:23.923+0200 2024-07-20 21:11:23,923 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.348 seconds (process running for 3.193)
+2024-07-20T21:11:28.458+0200 2024-07-20 21:11:28,458 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 5848 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T21:11:28.458+0200 2024-07-20 21:11:28,458 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T21:11:29.198+0200 2024-07-20 21:11:29,198 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.779 seconds (process running for 8.468)
+2024-07-20T21:11:48.582+0200 2024-07-20 21:11:48,582 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 13880 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T21:11:48.589+0200 2024-07-20 21:11:48,589 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T21:11:50.534+0200 2024-07-20 21:11:50,534 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.228 seconds (process running for 3.188)
+2024-07-20T21:13:31.397+0200 2024-07-20 21:13:31,397 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 11804 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T21:13:31.403+0200 2024-07-20 21:13:31,403 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T21:13:33.325+0200 2024-07-20 21:13:33,325 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.184 seconds (process running for 3.069)
