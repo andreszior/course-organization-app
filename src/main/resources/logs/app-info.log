@@ -1037,3 +1037,267 @@
 2024-07-20T21:13:40.054+0200 2024-07-20 21:13:40,054 [INFO] HikariDataSource - HikariPool-1 - Start completed.
 2024-07-20T21:20:38.815+0200 2024-07-20 21:20:38,815 [INFO] HikariDataSource - HikariPool-1 - Shutdown initiated...
 2024-07-20T21:20:38.820+0200 2024-07-20 21:20:38,820 [INFO] HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-20T21:20:42.308+0200 2024-07-20 21:20:42,308 [INFO] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-20T21:20:42.308+0200 2024-07-20 21:20:42,308 [INFO] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-20T21:20:43.358+0200 2024-07-20 21:20:43,358 [INFO] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-20T21:20:43.367+0200 2024-07-20 21:20:43,367 [INFO] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-20T21:20:43.369+0200 2024-07-20 21:20:43,369 [INFO] StandardService - Starting service [Tomcat]
+2024-07-20T21:20:43.369+0200 2024-07-20 21:20:43,369 [INFO] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-20T21:20:43.404+0200 2024-07-20 21:20:43,404 [INFO] [/] - Initializing Spring embedded WebApplicationContext
+2024-07-20T21:20:43.405+0200 2024-07-20 21:20:43,405 [INFO] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1096 ms
+2024-07-20T21:20:44.236+0200 2024-07-20 21:20:44,236 [INFO] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-20T21:20:44.254+0200 2024-07-20 21:20:44,254 [INFO] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-20T21:20:44.267+0200 2024-07-20 21:20:44,267 [INFO] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-20T21:20:48.502+0200 2024-07-20 21:20:48,502 [INFO] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-20T21:20:48.502+0200 2024-07-20 21:20:48,502 [INFO] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-20T21:20:48.503+0200 2024-07-20 21:20:48,503 [INFO] DispatcherServlet - Completed initialization in 1 ms
+2024-07-20T21:20:48.557+0200 2024-07-20 21:20:48,557 [INFO] HikariDataSource - HikariPool-1 - Starting...
+2024-07-20T21:20:48.883+0200 2024-07-20 21:20:48,883 [INFO] HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ccda3ee
+2024-07-20T21:20:48.885+0200 2024-07-20 21:20:48,885 [INFO] HikariDataSource - HikariPool-1 - Start completed.
+2024-07-20T21:38:56.849+0200 2024-07-20 21:38:56,849 [INFO] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-07-20T21:38:56.853+0200 2024-07-20 21:38:56,853 [INFO] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-20T21:38:56.860+0200 2024-07-20 21:38:56,860 [INFO] HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-20T21:38:56.866+0200 2024-07-20 21:38:56,866 [INFO] HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-20T21:38:57.234+0200 2024-07-20 21:38:57,234 [INFO] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-20T21:38:57.237+0200 2024-07-20 21:38:57,237 [INFO] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-20T21:38:57.238+0200 2024-07-20 21:38:57,238 [INFO] StandardService - Starting service [Tomcat]
+2024-07-20T21:38:57.238+0200 2024-07-20 21:38:57,238 [INFO] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-20T21:38:57.253+0200 2024-07-20 21:38:57,253 [INFO] [/] - Initializing Spring embedded WebApplicationContext
+2024-07-20T21:38:57.254+0200 2024-07-20 21:38:57,254 [INFO] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 288 ms
+2024-07-20T21:38:57.536+0200 2024-07-20 21:38:57,536 [INFO] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-20T21:38:57.546+0200 2024-07-20 21:38:57,546 [INFO] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-20T21:38:57.549+0200 2024-07-20 21:38:57,549 [INFO] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-20T21:38:57.554+0200 2024-07-20 21:38:57,554 [INFO] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-07-22T15:58:15.509+0200 2024-07-22 15:58:15,509 [INFO] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-22T15:58:15.510+0200 2024-07-22 15:58:15,510 [INFO] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-22T15:58:16.941+0200 2024-07-22 15:58:16,941 [INFO] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-22T15:58:16.953+0200 2024-07-22 15:58:16,953 [INFO] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22T15:58:16.955+0200 2024-07-22 15:58:16,955 [INFO] StandardService - Starting service [Tomcat]
+2024-07-22T15:58:16.955+0200 2024-07-22 15:58:16,955 [INFO] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-22T15:58:16.999+0200 2024-07-22 15:58:16,999 [INFO] [/] - Initializing Spring embedded WebApplicationContext
+2024-07-22T15:58:17.000+0200 2024-07-22 15:58:17,000 [INFO] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1489 ms
+2024-07-22T15:58:17.959+0200 2024-07-22 15:58:17,959 [INFO] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-22T15:58:17.979+0200 2024-07-22 15:58:17,979 [INFO] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22T15:58:17.993+0200 2024-07-22 15:58:17,993 [INFO] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-22T16:02:01.331+0200 2024-07-22 16:02:01,331 [INFO] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-22T16:02:01.331+0200 2024-07-22 16:02:01,331 [INFO] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-22T16:02:01.333+0200 2024-07-22 16:02:01,333 [INFO] DispatcherServlet - Completed initialization in 1 ms
+2024-07-22T16:02:01.431+0200 2024-07-22 16:02:01,431 [INFO] HikariDataSource - HikariPool-1 - Starting...
+2024-07-22T16:02:01.853+0200 2024-07-22 16:02:01,853 [INFO] HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e4b0ad8
+2024-07-22T16:02:01.855+0200 2024-07-22 16:02:01,855 [INFO] HikariDataSource - HikariPool-1 - Start completed.
+2024-07-22T16:12:09.259+0200 2024-07-22 16:12:09,259 [INFO] HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-22T16:12:09.265+0200 2024-07-22 16:12:09,265 [INFO] HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-22T16:12:13.328+0200 2024-07-22 16:12:13,328 [INFO] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-22T16:12:13.328+0200 2024-07-22 16:12:13,328 [INFO] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-22T16:12:14.601+0200 2024-07-22 16:12:14,601 [INFO] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-22T16:12:14.612+0200 2024-07-22 16:12:14,612 [INFO] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:12:14.614+0200 2024-07-22 16:12:14,614 [INFO] StandardService - Starting service [Tomcat]
+2024-07-22T16:12:14.614+0200 2024-07-22 16:12:14,614 [INFO] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-22T16:12:14.661+0200 2024-07-22 16:12:14,661 [INFO] [/] - Initializing Spring embedded WebApplicationContext
+2024-07-22T16:12:14.661+0200 2024-07-22 16:12:14,661 [INFO] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1332 ms
+2024-07-22T16:12:15.751+0200 2024-07-22 16:12:15,751 [INFO] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-22T16:12:15.772+0200 2024-07-22 16:12:15,772 [INFO] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:12:15.787+0200 2024-07-22 16:12:15,787 [INFO] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-22T16:12:21.323+0200 2024-07-22 16:12:21,323 [INFO] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-22T16:12:21.323+0200 2024-07-22 16:12:21,323 [INFO] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-22T16:12:21.324+0200 2024-07-22 16:12:21,324 [INFO] DispatcherServlet - Completed initialization in 1 ms
+2024-07-22T16:12:21.376+0200 2024-07-22 16:12:21,376 [INFO] HikariDataSource - HikariPool-1 - Starting...
+2024-07-22T16:12:21.675+0200 2024-07-22 16:12:21,675 [INFO] HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@311a5837
+2024-07-22T16:12:21.677+0200 2024-07-22 16:12:21,677 [INFO] HikariDataSource - HikariPool-1 - Start completed.
+2024-07-22T16:13:51.278+0200 2024-07-22 16:13:51,278 [INFO] HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-22T16:13:51.284+0200 2024-07-22 16:13:51,284 [INFO] HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-22T16:13:56.029+0200 2024-07-22 16:13:56,029 [INFO] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-22T16:13:56.029+0200 2024-07-22 16:13:56,029 [INFO] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-22T16:13:57.307+0200 2024-07-22 16:13:57,307 [INFO] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-22T16:13:57.320+0200 2024-07-22 16:13:57,320 [INFO] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:13:57.322+0200 2024-07-22 16:13:57,322 [INFO] StandardService - Starting service [Tomcat]
+2024-07-22T16:13:57.323+0200 2024-07-22 16:13:57,323 [INFO] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-22T16:13:57.373+0200 2024-07-22 16:13:57,373 [INFO] [/] - Initializing Spring embedded WebApplicationContext
+2024-07-22T16:13:57.374+0200 2024-07-22 16:13:57,374 [INFO] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1343 ms
+2024-07-22T16:13:58.373+0200 2024-07-22 16:13:58,373 [INFO] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-22T16:13:58.394+0200 2024-07-22 16:13:58,394 [INFO] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:13:58.410+0200 2024-07-22 16:13:58,410 [INFO] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-22T16:14:02.974+0200 2024-07-22 16:14:02,974 [INFO] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-22T16:14:02.975+0200 2024-07-22 16:14:02,975 [INFO] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-22T16:14:02.976+0200 2024-07-22 16:14:02,976 [INFO] DispatcherServlet - Completed initialization in 1 ms
+2024-07-22T16:16:23.272+0200 2024-07-22 16:16:23,272 [INFO] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-22T16:16:23.273+0200 2024-07-22 16:16:23,273 [INFO] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-22T16:16:24.668+0200 2024-07-22 16:16:24,668 [INFO] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-22T16:16:24.678+0200 2024-07-22 16:16:24,678 [INFO] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:16:24.679+0200 2024-07-22 16:16:24,679 [INFO] StandardService - Starting service [Tomcat]
+2024-07-22T16:16:24.680+0200 2024-07-22 16:16:24,680 [INFO] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-22T16:16:24.721+0200 2024-07-22 16:16:24,721 [INFO] [/] - Initializing Spring embedded WebApplicationContext
+2024-07-22T16:16:24.721+0200 2024-07-22 16:16:24,721 [INFO] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1448 ms
+2024-07-22T16:16:25.593+0200 2024-07-22 16:16:25,593 [INFO] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-22T16:16:25.611+0200 2024-07-22 16:16:25,611 [INFO] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:16:25.624+0200 2024-07-22 16:16:25,624 [INFO] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-22T16:16:28.328+0200 2024-07-22 16:16:28,328 [INFO] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-22T16:16:28.328+0200 2024-07-22 16:16:28,328 [INFO] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-22T16:16:28.329+0200 2024-07-22 16:16:28,329 [INFO] DispatcherServlet - Completed initialization in 1 ms
+2024-07-22T16:16:45.345+0200 2024-07-22 16:16:45,345 [INFO] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-22T16:16:45.349+0200 2024-07-22 16:16:45,349 [INFO] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:16:46.105+0200 2024-07-22 16:16:46,105 [INFO] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-22T16:16:46.106+0200 2024-07-22 16:16:46,106 [INFO] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:16:46.107+0200 2024-07-22 16:16:46,107 [INFO] StandardService - Starting service [Tomcat]
+2024-07-22T16:16:46.107+0200 2024-07-22 16:16:46,107 [INFO] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-22T16:16:46.123+0200 2024-07-22 16:16:46,123 [INFO] [/] - Initializing Spring embedded WebApplicationContext
+2024-07-22T16:16:46.124+0200 2024-07-22 16:16:46,124 [INFO] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 569 ms
+2024-07-22T16:16:46.378+0200 2024-07-22 16:16:46,378 [INFO] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-22T16:16:46.389+0200 2024-07-22 16:16:46,389 [INFO] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:16:46.392+0200 2024-07-22 16:16:46,392 [INFO] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-22T16:16:46.398+0200 2024-07-22 16:16:46,398 [INFO] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-07-22T16:16:49.894+0200 2024-07-22 16:16:49,894 [INFO] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-22T16:16:49.894+0200 2024-07-22 16:16:49,894 [INFO] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-22T16:16:49.896+0200 2024-07-22 16:16:49,896 [INFO] DispatcherServlet - Completed initialization in 1 ms
+2024-07-22T16:17:25.588+0200 2024-07-22 16:17:25,588 [INFO] HikariDataSource - HikariPool-1 - Starting...
+2024-07-22T16:17:25.868+0200 2024-07-22 16:17:25,868 [INFO] HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51133b17
+2024-07-22T16:17:25.870+0200 2024-07-22 16:17:25,870 [INFO] HikariDataSource - HikariPool-1 - Start completed.
+2024-07-22T16:18:31.407+0200 2024-07-22 16:18:31,407 [INFO] HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-22T16:18:31.413+0200 2024-07-22 16:18:31,413 [INFO] HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-22T16:18:34.966+0200 2024-07-22 16:18:34,966 [INFO] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-22T16:18:34.966+0200 2024-07-22 16:18:34,966 [INFO] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-22T16:18:36.280+0200 2024-07-22 16:18:36,280 [INFO] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-22T16:18:36.290+0200 2024-07-22 16:18:36,290 [INFO] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:18:36.292+0200 2024-07-22 16:18:36,292 [INFO] StandardService - Starting service [Tomcat]
+2024-07-22T16:18:36.293+0200 2024-07-22 16:18:36,293 [INFO] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-22T16:18:36.333+0200 2024-07-22 16:18:36,333 [INFO] [/] - Initializing Spring embedded WebApplicationContext
+2024-07-22T16:18:36.333+0200 2024-07-22 16:18:36,333 [INFO] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1367 ms
+2024-07-22T16:18:37.201+0200 2024-07-22 16:18:37,201 [INFO] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-22T16:18:37.220+0200 2024-07-22 16:18:37,220 [INFO] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:18:37.234+0200 2024-07-22 16:18:37,234 [INFO] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-22T16:18:40.919+0200 2024-07-22 16:18:40,919 [INFO] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-22T16:18:40.919+0200 2024-07-22 16:18:40,919 [INFO] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-22T16:18:40.921+0200 2024-07-22 16:18:40,921 [INFO] DispatcherServlet - Completed initialization in 2 ms
+2024-07-22T16:18:41.006+0200 2024-07-22 16:18:41,006 [INFO] HikariDataSource - HikariPool-1 - Starting...
+2024-07-22T16:18:41.376+0200 2024-07-22 16:18:41,376 [INFO] HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59bcd652
+2024-07-22T16:18:41.378+0200 2024-07-22 16:18:41,378 [INFO] HikariDataSource - HikariPool-1 - Start completed.
+2024-07-22T16:19:02.337+0200 2024-07-22 16:19:02,337 [INFO] HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-22T16:19:02.343+0200 2024-07-22 16:19:02,343 [INFO] HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-22T16:19:05.886+0200 2024-07-22 16:19:05,886 [INFO] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-22T16:19:05.886+0200 2024-07-22 16:19:05,886 [INFO] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-22T16:19:07.124+0200 2024-07-22 16:19:07,124 [INFO] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-22T16:19:07.136+0200 2024-07-22 16:19:07,136 [INFO] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:19:07.138+0200 2024-07-22 16:19:07,138 [INFO] StandardService - Starting service [Tomcat]
+2024-07-22T16:19:07.139+0200 2024-07-22 16:19:07,139 [INFO] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-22T16:19:07.183+0200 2024-07-22 16:19:07,183 [INFO] [/] - Initializing Spring embedded WebApplicationContext
+2024-07-22T16:19:07.183+0200 2024-07-22 16:19:07,183 [INFO] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1296 ms
+2024-07-22T16:19:08.105+0200 2024-07-22 16:19:08,105 [INFO] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-22T16:19:08.124+0200 2024-07-22 16:19:08,124 [INFO] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:19:08.138+0200 2024-07-22 16:19:08,138 [INFO] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-22T16:19:12.593+0200 2024-07-22 16:19:12,593 [INFO] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-22T16:19:12.593+0200 2024-07-22 16:19:12,593 [INFO] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-22T16:19:12.596+0200 2024-07-22 16:19:12,596 [INFO] DispatcherServlet - Completed initialization in 2 ms
+2024-07-22T16:19:12.671+0200 2024-07-22 16:19:12,671 [INFO] HikariDataSource - HikariPool-1 - Starting...
+2024-07-22T16:19:13.084+0200 2024-07-22 16:19:13,084 [INFO] HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54aba7c7
+2024-07-22T16:19:13.086+0200 2024-07-22 16:19:13,086 [INFO] HikariDataSource - HikariPool-1 - Start completed.
+2024-07-22T16:19:13.610+0200 2024-07-22 16:19:13,610 [INFO] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-22T16:19:13.613+0200 2024-07-22 16:19:13,613 [INFO] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:19:13.621+0200 2024-07-22 16:19:13,621 [INFO] HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-22T16:19:13.639+0200 2024-07-22 16:19:13,639 [INFO] HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-22T16:19:14.097+0200 2024-07-22 16:19:14,097 [INFO] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-22T16:19:14.098+0200 2024-07-22 16:19:14,098 [INFO] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:19:14.098+0200 2024-07-22 16:19:14,098 [INFO] StandardService - Starting service [Tomcat]
+2024-07-22T16:19:14.098+0200 2024-07-22 16:19:14,098 [INFO] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-22T16:19:14.114+0200 2024-07-22 16:19:14,114 [INFO] [/] - Initializing Spring embedded WebApplicationContext
+2024-07-22T16:19:14.115+0200 2024-07-22 16:19:14,115 [INFO] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 378 ms
+2024-07-22T16:19:14.391+0200 2024-07-22 16:19:14,391 [INFO] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-22T16:19:14.401+0200 2024-07-22 16:19:14,401 [INFO] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:19:14.404+0200 2024-07-22 16:19:14,404 [INFO] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-22T16:19:14.409+0200 2024-07-22 16:19:14,409 [INFO] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-07-22T16:20:08.317+0200 2024-07-22 16:20:08,317 [INFO] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-22T16:20:08.318+0200 2024-07-22 16:20:08,318 [INFO] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-22T16:20:08.320+0200 2024-07-22 16:20:08,320 [INFO] DispatcherServlet - Completed initialization in 1 ms
+2024-07-22T16:20:08.322+0200 2024-07-22 16:20:08,322 [INFO] HikariDataSource - HikariPool-2 - Starting...
+2024-07-22T16:20:08.339+0200 2024-07-22 16:20:08,339 [INFO] HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32975f7b
+2024-07-22T16:20:08.339+0200 2024-07-22 16:20:08,339 [INFO] HikariDataSource - HikariPool-2 - Start completed.
+2024-07-22T16:20:08.779+0200 2024-07-22 16:20:08,779 [INFO] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-07-22T16:20:08.781+0200 2024-07-22 16:20:08,781 [INFO] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:20:08.789+0200 2024-07-22 16:20:08,789 [INFO] HikariDataSource - HikariPool-2 - Shutdown initiated...
+2024-07-22T16:20:08.808+0200 2024-07-22 16:20:08,808 [INFO] HikariDataSource - HikariPool-2 - Shutdown completed.
+2024-07-22T16:20:09.232+0200 2024-07-22 16:20:09,232 [INFO] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-22T16:20:09.233+0200 2024-07-22 16:20:09,233 [INFO] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:20:09.234+0200 2024-07-22 16:20:09,234 [INFO] StandardService - Starting service [Tomcat]
+2024-07-22T16:20:09.234+0200 2024-07-22 16:20:09,234 [INFO] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-22T16:20:09.251+0200 2024-07-22 16:20:09,251 [INFO] [/] - Initializing Spring embedded WebApplicationContext
+2024-07-22T16:20:09.251+0200 2024-07-22 16:20:09,251 [INFO] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 333 ms
+2024-07-22T16:20:09.575+0200 2024-07-22 16:20:09,575 [INFO] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-22T16:20:09.588+0200 2024-07-22 16:20:09,588 [INFO] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:20:09.590+0200 2024-07-22 16:20:09,590 [INFO] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-22T16:20:09.596+0200 2024-07-22 16:20:09,596 [INFO] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-07-22T16:20:45.643+0200 2024-07-22 16:20:45,643 [INFO] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-22T16:20:45.644+0200 2024-07-22 16:20:45,644 [INFO] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-22T16:20:45.646+0200 2024-07-22 16:20:45,646 [INFO] DispatcherServlet - Completed initialization in 1 ms
+2024-07-22T16:20:45.651+0200 2024-07-22 16:20:45,651 [INFO] HikariDataSource - HikariPool-3 - Starting...
+2024-07-22T16:20:45.663+0200 2024-07-22 16:20:45,663 [INFO] HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c8563ac
+2024-07-22T16:20:45.663+0200 2024-07-22 16:20:45,663 [INFO] HikariDataSource - HikariPool-3 - Start completed.
+2024-07-22T16:21:59.743+0200 2024-07-22 16:21:59,743 [INFO] HikariDataSource - HikariPool-3 - Shutdown initiated...
+2024-07-22T16:21:59.748+0200 2024-07-22 16:21:59,748 [INFO] HikariDataSource - HikariPool-3 - Shutdown completed.
+2024-07-22T16:22:03.586+0200 2024-07-22 16:22:03,586 [INFO] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-22T16:22:03.586+0200 2024-07-22 16:22:03,586 [INFO] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-22T16:22:04.769+0200 2024-07-22 16:22:04,769 [INFO] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-22T16:22:04.780+0200 2024-07-22 16:22:04,780 [INFO] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:22:04.781+0200 2024-07-22 16:22:04,781 [INFO] StandardService - Starting service [Tomcat]
+2024-07-22T16:22:04.782+0200 2024-07-22 16:22:04,782 [INFO] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-22T16:22:04.826+0200 2024-07-22 16:22:04,826 [INFO] [/] - Initializing Spring embedded WebApplicationContext
+2024-07-22T16:22:04.826+0200 2024-07-22 16:22:04,826 [INFO] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1239 ms
+2024-07-22T16:22:05.726+0200 2024-07-22 16:22:05,726 [INFO] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-22T16:22:05.747+0200 2024-07-22 16:22:05,747 [INFO] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:22:05.761+0200 2024-07-22 16:22:05,761 [INFO] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-22T16:22:10.230+0200 2024-07-22 16:22:10,230 [INFO] LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-07-22T16:22:10.233+0200 2024-07-22 16:22:10,233 [INFO] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:22:10.668+0200 2024-07-22 16:22:10,668 [INFO] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-22T16:22:10.668+0200 2024-07-22 16:22:10,668 [INFO] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:22:10.669+0200 2024-07-22 16:22:10,669 [INFO] StandardService - Starting service [Tomcat]
+2024-07-22T16:22:10.669+0200 2024-07-22 16:22:10,669 [INFO] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-22T16:22:10.685+0200 2024-07-22 16:22:10,685 [INFO] [/] - Initializing Spring embedded WebApplicationContext
+2024-07-22T16:22:10.685+0200 2024-07-22 16:22:10,685 [INFO] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 354 ms
+2024-07-22T16:22:10.951+0200 2024-07-22 16:22:10,951 [INFO] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-22T16:22:10.963+0200 2024-07-22 16:22:10,963 [INFO] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:22:10.968+0200 2024-07-22 16:22:10,968 [INFO] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-22T16:22:10.973+0200 2024-07-22 16:22:10,973 [INFO] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-07-22T16:22:15.411+0200 2024-07-22 16:22:15,411 [INFO] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-22T16:22:15.412+0200 2024-07-22 16:22:15,412 [INFO] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-22T16:22:15.414+0200 2024-07-22 16:22:15,414 [INFO] DispatcherServlet - Completed initialization in 1 ms
+2024-07-22T16:22:15.474+0200 2024-07-22 16:22:15,474 [INFO] HikariDataSource - HikariPool-1 - Starting...
+2024-07-22T16:22:15.766+0200 2024-07-22 16:22:15,766 [INFO] HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40fdfb25
+2024-07-22T16:22:15.767+0200 2024-07-22 16:22:15,767 [INFO] HikariDataSource - HikariPool-1 - Start completed.
+2024-07-22T16:23:58.462+0200 2024-07-22 16:23:58,462 [INFO] HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-22T16:23:58.468+0200 2024-07-22 16:23:58,468 [INFO] HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-22T16:24:02.976+0200 2024-07-22 16:24:02,976 [INFO] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-22T16:24:02.977+0200 2024-07-22 16:24:02,977 [INFO] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-22T16:24:04.196+0200 2024-07-22 16:24:04,196 [INFO] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-22T16:24:04.207+0200 2024-07-22 16:24:04,207 [INFO] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:24:04.209+0200 2024-07-22 16:24:04,209 [INFO] StandardService - Starting service [Tomcat]
+2024-07-22T16:24:04.209+0200 2024-07-22 16:24:04,209 [INFO] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-22T16:24:04.250+0200 2024-07-22 16:24:04,250 [INFO] [/] - Initializing Spring embedded WebApplicationContext
+2024-07-22T16:24:04.251+0200 2024-07-22 16:24:04,251 [INFO] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1267 ms
+2024-07-22T16:24:05.164+0200 2024-07-22 16:24:05,164 [INFO] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-22T16:24:05.185+0200 2024-07-22 16:24:05,185 [INFO] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:24:05.199+0200 2024-07-22 16:24:05,199 [INFO] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-22T16:24:07.593+0200 2024-07-22 16:24:07,593 [INFO] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-22T16:24:07.593+0200 2024-07-22 16:24:07,593 [INFO] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-22T16:24:07.595+0200 2024-07-22 16:24:07,595 [INFO] DispatcherServlet - Completed initialization in 2 ms
+2024-07-22T16:24:07.673+0200 2024-07-22 16:24:07,673 [INFO] HikariDataSource - HikariPool-1 - Starting...
+2024-07-22T16:24:08.039+0200 2024-07-22 16:24:08,039 [INFO] HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60c252da
+2024-07-22T16:24:08.044+0200 2024-07-22 16:24:08,044 [INFO] HikariDataSource - HikariPool-1 - Start completed.
+2024-07-22T16:25:20.922+0200 2024-07-22 16:25:20,922 [INFO] HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-22T16:25:20.929+0200 2024-07-22 16:25:20,929 [INFO] HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-22T16:25:25.986+0200 2024-07-22 16:25:25,986 [INFO] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-22T16:25:25.987+0200 2024-07-22 16:25:25,987 [INFO] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-22T16:25:27.336+0200 2024-07-22 16:25:27,336 [INFO] TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-22T16:25:27.347+0200 2024-07-22 16:25:27,347 [INFO] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:25:27.348+0200 2024-07-22 16:25:27,348 [INFO] StandardService - Starting service [Tomcat]
+2024-07-22T16:25:27.349+0200 2024-07-22 16:25:27,349 [INFO] StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-22T16:25:27.395+0200 2024-07-22 16:25:27,395 [INFO] [/] - Initializing Spring embedded WebApplicationContext
+2024-07-22T16:25:27.395+0200 2024-07-22 16:25:27,395 [INFO] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1408 ms
+2024-07-22T16:25:28.341+0200 2024-07-22 16:25:28,341 [INFO] OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-07-22T16:25:28.364+0200 2024-07-22 16:25:28,364 [INFO] Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22T16:25:28.380+0200 2024-07-22 16:25:28,380 [INFO] TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-22T16:25:32.840+0200 2024-07-22 16:25:32,840 [INFO] [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-22T16:25:32.840+0200 2024-07-22 16:25:32,840 [INFO] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-22T16:25:32.842+0200 2024-07-22 16:25:32,842 [INFO] DispatcherServlet - Completed initialization in 2 ms
+2024-07-22T16:25:32.909+0200 2024-07-22 16:25:32,909 [INFO] HikariDataSource - HikariPool-1 - Starting...
+2024-07-22T16:25:33.251+0200 2024-07-22 16:25:33,251 [INFO] HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b8b2a26
+2024-07-22T16:25:33.252+0200 2024-07-22 16:25:33,252 [INFO] HikariDataSource - HikariPool-1 - Start completed.
+2024-07-22T16:26:08.920+0200 2024-07-22 16:26:08,920 [INFO] HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-22T16:26:08.926+0200 2024-07-22 16:26:08,926 [INFO] HikariDataSource - HikariPool-1 - Shutdown completed.

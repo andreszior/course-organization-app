@@ -15,4 +15,6 @@ public interface ITeacherService {
     boolean updateTeacher(String dni, Map<String, Object> updates);
 
     Teacher getTeacher(String dni);
+
+    Teacher getTeacherById(Long id);
 }

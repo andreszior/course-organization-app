@@ -67,5 +67,10 @@ public class TeacherService implements ITeacherService {
         return teacherMapper.getTeacher(dni);
     }
 
+    @Override
+    public Teacher getTeacherById(Long id) {
+        return teacherMapper.getTeacherById(id);
+    }
+
 
 }

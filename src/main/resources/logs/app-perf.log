@@ -647,3 +647,76 @@ Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'a
 2024-07-20T21:13:31.397+0200 2024-07-20 21:13:31,397 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 11804 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
 2024-07-20T21:13:31.403+0200 2024-07-20 21:13:31,403 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
 2024-07-20T21:13:33.325+0200 2024-07-20 21:13:33,325 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.184 seconds (process running for 3.069)
+2024-07-20T21:20:42.265+0200 2024-07-20 21:20:42,265 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 11468 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T21:20:42.272+0200 2024-07-20 21:20:42,272 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T21:20:44.275+0200 2024-07-20 21:20:44,275 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.311 seconds (process running for 3.252)
+2024-07-20T21:38:56.963+0200 2024-07-20 21:38:56,963 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 11468 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-20T21:38:56.964+0200 2024-07-20 21:38:56,964 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-20T21:38:57.552+0200 2024-07-20 21:38:57,552 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.634 seconds (process running for 1096.53)
+2024-07-22T15:58:15.445+0200 2024-07-22 15:58:15,445 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 16696 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-22T15:58:15.454+0200 2024-07-22 15:58:15,454 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-22T15:58:18.002+0200 2024-07-22 15:58:18,002 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.914 seconds (process running for 4.297)
+2024-07-22T16:02:01.917+0200 2024-07-22 16:02:01,917 [INFO] CourseOrganizationAppApplication - Course created
+2024-07-22T16:12:13.278+0200 2024-07-22 16:12:13,278 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 18592 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-22T16:12:13.286+0200 2024-07-22 16:12:13,286 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-22T16:12:15.796+0200 2024-07-22 16:12:15,796 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.898 seconds (process running for 3.829)
+2024-07-22T16:12:21.723+0200 2024-07-22 16:12:21,723 [WARN] CourseOrganizationAppApplication - Course teacher not found
+2024-07-22T16:12:35.588+0200 2024-07-22 16:12:35,588 [INFO] CourseOrganizationAppApplication - Course found
+2024-07-22T16:13:55.974+0200 2024-07-22 16:13:55,974 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 25756 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-22T16:13:55.981+0200 2024-07-22 16:13:55,981 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-22T16:13:58.418+0200 2024-07-22 16:13:58,418 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.815 seconds (process running for 3.784)
+2024-07-22T16:16:23.190+0200 2024-07-22 16:16:23,190 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 20296 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-22T16:16:23.202+0200 2024-07-22 16:16:23,202 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-22T16:16:25.632+0200 2024-07-22 16:16:25,632 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.753 seconds (process running for 3.881)
+2024-07-22T16:16:45.551+0200 2024-07-22 16:16:45,551 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 20296 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-22T16:16:45.552+0200 2024-07-22 16:16:45,552 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-22T16:16:46.396+0200 2024-07-22 16:16:46,396 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.927 seconds (process running for 24.644)
+2024-07-22T16:17:25.908+0200 2024-07-22 16:17:25,908 [INFO] CourseOrganizationAppApplication - Course found
+2024-07-22T16:18:34.926+0200 2024-07-22 16:18:34,926 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 1040 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-22T16:18:34.933+0200 2024-07-22 16:18:34,933 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-22T16:18:37.243+0200 2024-07-22 16:18:37,243 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.62 seconds (process running for 3.628)
+2024-07-22T16:18:41.418+0200 2024-07-22 16:18:41,418 [INFO] CourseOrganizationAppApplication - Course found
+2024-07-22T16:19:05.829+0200 2024-07-22 16:19:05,829 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 7804 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-22T16:19:05.839+0200 2024-07-22 16:19:05,839 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-22T16:19:08.146+0200 2024-07-22 16:19:08,146 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.678 seconds (process running for 3.586)
+2024-07-22T16:19:13.125+0200 2024-07-22 16:19:13,125 [INFO] CourseOrganizationAppApplication - Course found
+2024-07-22T16:19:13.734+0200 2024-07-22 16:19:13,734 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 7804 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-22T16:19:13.734+0200 2024-07-22 16:19:13,734 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-22T16:19:14.407+0200 2024-07-22 16:19:14,407 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.714 seconds (process running for 9.847)
+2024-07-22T16:20:08.343+0200 2024-07-22 16:20:08,343 [INFO] CourseOrganizationAppApplication - Course found
+2024-07-22T16:20:08.915+0200 2024-07-22 16:20:08,915 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 7804 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-22T16:20:08.916+0200 2024-07-22 16:20:08,916 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-22T16:20:09.595+0200 2024-07-22 16:20:09,595 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.726 seconds (process running for 65.035)
+2024-07-22T16:20:45.665+0200 2024-07-22 16:20:45,665 [WARN] CourseOrganizationAppApplication - Course teacher not found
+2024-07-22T16:21:17.652+0200 2024-07-22 16:21:17,652 [INFO] CourseOrganizationAppApplication - Course found
+2024-07-22T16:22:03.521+0200 2024-07-22 16:22:03,521 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 23952 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-22T16:22:03.538+0200 2024-07-22 16:22:03,538 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-22T16:22:05.769+0200 2024-07-22 16:22:05,769 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.654 seconds (process running for 3.665)
+2024-07-22T16:22:10.329+0200 2024-07-22 16:22:10,329 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 23952 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-22T16:22:10.329+0200 2024-07-22 16:22:10,329 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-22T16:22:10.971+0200 2024-07-22 16:22:10,971 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.681 seconds (process running for 8.868)
+2024-07-22T16:22:15.802+0200 2024-07-22 16:22:15,802 [INFO] CourseOrganizationAppApplication - Course found
+2024-07-22T16:24:02.917+0200 2024-07-22 16:24:02,917 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 22060 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-22T16:24:02.925+0200 2024-07-22 16:24:02,925 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-22T16:24:05.207+0200 2024-07-22 16:24:05,207 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.601 seconds (process running for 3.579)
+2024-07-22T16:24:08.083+0200 2024-07-22 16:24:08,083 [INFO] CourseOrganizationAppApplication - Course found
+2024-07-22T16:25:25.935+0200 2024-07-22 16:25:25,935 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 21672 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-22T16:25:25.942+0200 2024-07-22 16:25:25,942 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-22T16:25:28.391+0200 2024-07-22 16:25:28,391 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.81 seconds (process running for 3.876)
+2024-07-22T16:25:33.288+0200 2024-07-22 16:25:33,288 [INFO] CourseOrganizationAppApplication - Course found
+2024-07-22T16:26:13.339+0200 2024-07-22 16:26:13,339 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 26580 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-22T16:26:13.349+0200 2024-07-22 16:26:13,349 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-22T16:26:15.929+0200 2024-07-22 16:26:15,929 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 2.929 seconds (process running for 4.276)
+2024-07-22T16:26:19.507+0200 2024-07-22 16:26:19,507 [INFO] CourseOrganizationAppApplication - Course found
+2024-07-22T16:26:20.483+0200 2024-07-22 16:26:20,483 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 26580 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-22T16:26:20.484+0200 2024-07-22 16:26:20,484 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-22T16:26:21.229+0200 2024-07-22 16:26:21,229 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.787 seconds (process running for 9.577)
+2024-07-22T16:27:28.006+0200 2024-07-22 16:27:28,006 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 26580 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-22T16:27:28.006+0200 2024-07-22 16:27:28,006 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-22T16:27:28.722+0200 2024-07-22 16:27:28,722 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.759 seconds (process running for 77.07)
+2024-07-22T16:27:30.241+0200 2024-07-22 16:27:30,241 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 26580 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-22T16:27:30.242+0200 2024-07-22 16:27:30,242 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-22T16:27:30.765+0200 2024-07-22 16:27:30,765 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.556 seconds (process running for 79.113)
+2024-07-22T16:30:40.620+0200 2024-07-22 16:30:40,620 [INFO] CourseOrganizationAppApplication - Starting CourseOrganizationAppApplication using Java 22.0.1 with PID 26580 (C:\Users\ZioR\IdeaProjects\course-organization-app\target\classes started by ZioR in C:\Users\ZioR\IdeaProjects\course-organization-app)
+2024-07-22T16:30:40.620+0200 2024-07-22 16:30:40,620 [INFO] CourseOrganizationAppApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-22T16:30:41.115+0200 2024-07-22 16:30:41,115 [INFO] CourseOrganizationAppApplication - Started CourseOrganizationAppApplication in 0.526 seconds (process running for 269.463)

@@ -8,6 +8,11 @@ public class Course {
 
     public Course() {}
 
+    public Course(Long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
     public Course(Long id, String name, Long idTeacher) {
         this.id = id;
         this.name = name;

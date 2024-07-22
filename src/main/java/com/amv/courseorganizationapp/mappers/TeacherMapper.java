@@ -23,8 +23,11 @@ public interface TeacherMapper {
     @Update("UPDATE teacher SET dni = #{dni}, name=#{name}, lastname_first=#{firstSurname}, lastname_second=#{lastSurname}, email=#{email}, phone=#{phone}, address=#{address} WHERE dni=#{dni}")
     boolean updateTeacher(Teacher teacher);
 
-    //@Select("SELECT * FROM teacher WHERE dni=#{dni}")
     @Select("SELECT idteacher AS id, dni, name, lastname_first AS firstSurname, lastname_second AS lastSurname, email, phone, address FROM teacher WHERE dni = #{dni}")
     Teacher getTeacher(String dni);
+
+    @Select("SELECT idteacher AS id, dni, name, lastname_first AS firstSurname, lastname_second AS lastSurname, email, phone, address FROM teacher WHERE idteacher = #{idTeacher}")
+    Teacher getTeacherById(Long idTeacher);
+
 
 }

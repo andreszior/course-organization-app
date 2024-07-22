@@ -40,7 +40,7 @@ public class TeacherController {
 
     @PostMapping("/register")
     @Operation(summary = "Resgister a new Teacher ",
-            description= "Given information from the teacher, it creats a new entry")
+            description= "Given information from the teacher, it creates a new entry")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "201", description = "Teacher created", content = @Content(schema = @Schema(implementation = Integer.class))),
             @ApiResponse(responseCode = "400", description = "Problems with the entry", content = @Content(schema = @Schema(implementation = BindingResult.class))
