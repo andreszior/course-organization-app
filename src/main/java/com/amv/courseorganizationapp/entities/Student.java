@@ -2,20 +2,20 @@ package com.amv.courseorganizationapp.entities;
 
 public class Student extends Person {
 
-    private String course;
+    private Long idCourse;
 
     public Student() {}
 
-    public Student(String dni, String firstName, String firstSurname, String lastSurname, String email, String phone, String address, String course) {
-        super(dni, firstName, firstSurname, firstSurname, email, phone, address);
-        this.course = course;
+    public Student(String dni, String name, String firstSurname, String lastSurname, String email, String phone, String address, Long idCourse) {
+        super(dni, name, firstSurname, lastSurname, email, phone, address);
+        this.idCourse = idCourse;
     }
 
-    public String getCourse() {
-        return course;
+    public Long getCourse() {
+        return idCourse;
     }
 
-    public void setCourse(String course) {
-        this.course = course;
+    public void setCourse(Long idCourse) {
+        this.idCourse = idCourse;
     }
 }
