@@ -29,9 +29,9 @@ public interface StudentMapper {
             "student_course AS idCourse FROM students WHERE student_dni = #{dni}")
     Student getStudent(String dni);
 
-    @Select("SELECT student_id AS id, student_dni, student_name, student_firstsurname AS firstSurname, " +
-            "student_lastsurname AS lastSurname, student_email, student_phone, student_address, student_course " +
-            "FROM students WHERE student_id = #{id}")
+    @Select("SELECT student_id AS id, student_dni AS dni, student_name AS name, student_firstsurname AS firstSurname, " +
+            "student_lastsurname AS lastSurname, student_email AS email, student_phone AS phone, student_address AS address, " +
+            "student_course AS idCourse FROM students WHERE student_id = #{id}")
     Student getStudentById(Long idStudent);
 }
 

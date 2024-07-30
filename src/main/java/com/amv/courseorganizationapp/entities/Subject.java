@@ -4,20 +4,18 @@ public class Subject {
 
     private Long id;
     private String name;
-    private Long idMentor;
+    private Long idTeacher;
 
 
     public Subject() {}
 
-    public Subject(Long id, String name) {
-        this.id = id;
+    public Subject(String name) {
         this.name = name;
     }
 
-    public Subject(Long id, String name, Long idMentor) {
-        this.id = id;
+    public Subject(String name, Long idTeacher) {
         this.name = name;
-        this.idMentor = idMentor;
+        this.idTeacher = idTeacher;
     }
 
     public Long getId() {
@@ -36,11 +34,11 @@ public class Subject {
         this.name = name;
     }
 
-    public Long getIdMentor() {
-        return idMentor;
+    public Long getIdTeacher() {
+        return idTeacher;
     }
 
-    public void setIdMentor(Long idMentor) {
-        this.idMentor = idMentor;
+    public void setIdTeacher(Long idTeacher) {
+        this.idTeacher = idTeacher;
     }
 }
